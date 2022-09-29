@@ -7,8 +7,8 @@ To flash yours, check out: https://github.com/GMMan/dengo-plug-and-play-controll
 If you happen to have an original DGOC-44U, let me know if this script also works for you.  
   
 Required Python packages:  
-pyautogui  
-pygame  
+- pyautogui  
+- pygame  
 
 Download the .py file and run via: python.exe .\USB_Dual_handle_controller_JR_EAST_Train_Simulator.py  
 Alternatively you can now also download a executable release that was created with py2exe.  
@@ -31,7 +31,10 @@ Button mappings:
 | B  | Back (Menu)  |
 | C  | Confirm (Menu)  |
 | D  | Deadman switch reset  |
-| Select  | Left  |
-| Start  | Right  |  
-  
-Since I could not get the D-pad working, I opted for Select/Start as a replacement.  
+| Select  | Quit |
+| Start  | Pause  | 
+| Left  | Left  | 
+| Right  | Right  | 
+| Up  | Change reverser position upwards  | 
+| Down  | Change reverser position downwards  | 
+
