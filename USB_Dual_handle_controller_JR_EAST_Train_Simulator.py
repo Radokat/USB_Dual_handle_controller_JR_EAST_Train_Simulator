@@ -5,7 +5,7 @@ import queue
 import os
 
 script = 'USB Dual handle controller "support" for JR EAST Train Simulator version:'
-version = '[0.5.0]'
+version = '[0.6.0]'
 pyautogui.PAUSE = 0  # Lowest possible delay before the game starts dropping key presses.
 pygame.init()
 pygame.mixer.quit()
